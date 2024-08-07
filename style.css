@@ -17,6 +17,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,13 +27,14 @@ body {
     background-color: var(--yellow);
     font-family: "Figtree", sans-serif;
     font-weight: 500;
+    line-height: 1.5;
+        letter-spacing: 0px;
 }
 
 h1 {
     font-weight: 800;
     font-size: 24px;
-        line-height: 1.5;
-        color: var(--gray-950);
+    color: var(--gray-950);
 }
 
 p {
@@ -40,6 +42,18 @@ p {
     color: var(--gray-500);
 }
 
+a {
+    text-decoration: none;
+    color: var(--gray-950);
+}
+
+a:hover {
+    color: var(--yellow);
+}
+
+.tag:hover {
+    background-color: var(--gray-950);
+}
 .card {
     display: flex;
     flex-direction: column;
@@ -47,10 +61,10 @@ p {
     align-items: left;
     background-color: var(--white);
     border-radius: 20px;
-    width: 327px;
+    width: 329px;
     padding: 24px;
     filter: drop-shadow(8px 8px #000000);
-        border-style: solid;
+    border-style: solid;
         border-width: 1px;
         border-color: var(--gray-950);
 }
@@ -60,45 +74,45 @@ p {
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
-        margin-bottom: 24px;
-    }
-    
-    .content {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-    
-    .date {
-        font-size: 14px;
-        color: var(--gray-950);
-    }
-    
-    .tag {
-        background-color: var(--yellow);
-        font-weight: 800;
-        border-radius: 4px;
-        padding: 4px 12px;
-        width: fit-content;
-        color: var(--gray-950);
-    }
-    
-    .author {
-        display: flex;
-        align-items: center;
-        height: 32px;
-        gap: 12px;
-        margin-top: 24px;
-    }
-    
-    .avatar {
-        width: 32px;
-        height: 32px;
-    }
-    
-    .name {
-        font-weight: 800;
-        color: var(--gray-950);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.date {
+    font-size: 14px;
+    color: var(--gray-950);
+}
+
+.tag {
+    background-color: var(--yellow);
+    font-weight: 800;
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: fit-content;
+    color: var(--gray-950);
+    margin-top: 24px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.name {
+    font-weight: 800;
+    color: var(--gray-950);
 }
 
 .attribution {
