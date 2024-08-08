@@ -2,16 +2,17 @@
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
-
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Built with](#built-with)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
-
 
 ## Overview
 
@@ -30,13 +31,30 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://ebogucka.github.io/blog-preview-card/](https://ebogucka.github.io/blog-preview-card/)
 
+## My process
 
-## Built with
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### What I learned
+
+I learned how to scale the font size with the browser size using CSS `clamp()`, for example:
+
+```css
+h1 {
+    /* 22px - 24px */
+    font-size: clamp(1.375rem, 1.3393rem + 0.1786vw, 1.5rem);
+}
+```
+
+### Useful resources
+
+- [CSS Clamp(): The Responsive Combination We’ve All Been Waiting For](https://blog.bitsrc.io/css-clamp-the-responsive-combination-weve-all-been-waiting-for-f1ce1981ea6e) - This helped me understand how to use `clamp()`
+- [Font-size Clamp Generator](https://clamp.font-size.app) - This allows you to generate the preferred font size when using `clamp()`
 
 
 ## Author
