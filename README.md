@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/solution-using-flexbox-3YDpE1mtoN](https://www.frontendmentor.io/solutions/solution-using-flexbox-3YDpE1mtoN)
 - Live Site URL: [https://ebogucka.github.io/blog-preview-card/](https://ebogucka.github.io/blog-preview-card/)
 
 ## My process
