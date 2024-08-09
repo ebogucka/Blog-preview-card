@@ -59,5 +59,5 @@ h1 {
 
 ## Author
 
-- Website - [StronaFirmy.pl](https://stronafirmy.pl)
+- GitHub - [@ebogucka](https://github.com/ebogucka)
 - Frontend Mentor - [@ebogucka](https://www.frontendmentor.io/profile/ebogucka)

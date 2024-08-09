@@ -10,6 +10,7 @@
     --white: hsl(0, 0%, 100%);
     --gray-500: hsl(0, 0%, 42%);
     --gray-950: hsl(0, 0%, 7%);
+    --attribution-color: hsl(228, 45%, 44%);
 }
 
 * {
@@ -21,7 +22,6 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: var(--yellow);
@@ -30,7 +30,13 @@ body {
     line-height: 1.5;
     /* 14px - 15px */
     font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
-    letter-spacing: 0px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -56,19 +62,17 @@ a:hover {
 .tag:hover {
     background-color: var(--gray-950);
 }
+
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     background-color: var(--white);
     border-radius: 20px;
     width: 327px;
     padding: 24px;
     filter: drop-shadow(8px 8px #000000);
-    border-style: solid;
-    border-color: var(--gray-950);
-    border-width: 1px;
+    border: 1px solid var(--gray-950);
 }
 
 .image {
@@ -119,13 +123,14 @@ a:hover {
 }
 
 .attribution {
-    margin-top: 50px;
     font-size: 11px;
-    text-align: center;
+    height: 2.5rem;
+    margin-top: auto;
+    align-content: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--attribution-color);
 }
 
 @media screen and (min-width: 400px) {
